@@ -32,6 +32,10 @@ A script is also provided to automate this process: `setup.sh`. It checks if the
 source setup.sh
 ```
 
+## Website
+
+The course website is built using Quarto and is automatically published to GitHub Pages whenever changes are pushed to the main branch. The website can be accessed at [https://unimibfisicalaboratori.github.io/intro-ml-physics/](https://unimibfisicalaboratori.github.io/intro-ml-physics/).
+
 ## License
 
 Text and course material licensed under CC BY 4.0.
