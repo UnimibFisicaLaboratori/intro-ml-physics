@@ -8,6 +8,16 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - dataset.qmd
+    - basic_tools.qmd
+    - basic_ml.qmd
+    - first_ml_analysis.qmd
+    - deep_learning_nn.qmd
+    - wilks.qmd
+    - deep_learning_cnn.qmd
+    - deep_learning_rnn.qmd
+    - deep_learning_gan.qmd
+    - deep_learning_vae.qmd
     - summary.qmd
     - references.qmd
 
