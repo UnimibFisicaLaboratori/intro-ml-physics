@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Introduction to Machine Learning for Physicists",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\nThis book is designed to provide an introduction to machine learning techniques and their applications in physics. We will cover a range of topics, from basic concepts of machine learning to more advanced techniques such as deep learning and neural networks. Each chapter will include practical examples and case studies to illustrate the concepts discussed. We will also discuss the importance of data preprocessing, feature extraction, and model evaluation in the context of physics research. By the end of this book, readers should have a solid understanding of how to apply machine learning methods to solve problems in physics and gain insights from data.",
     "crumbs": [
       "Preface"
     ]
@@ -14,29 +14,99 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 Technical Requirements\nMachine Learning is a powerful tool that has revolutionized many fields, including physics. In this book, we will explore the fundamental concepts of machine learning and how they can be applied to solve problems in physics. We will cover a wide range of topics, from basic machine learning algorithms to more advanced techniques such as deep learning and neural networks. Each chapter will include practical examples and case studies to illustrate the concepts discussed. This book is designed for physicists who are new to machine learning, as well as for those who have some experience but want to deepen their understanding of the field. We will start with the basics of machine learning, including supervised and unsupervised learning, and then move on to more advanced topics such as convolutional neural networks and generative adversarial networks. Along the way, we will discuss the importance of data preprocessing, feature extraction, and model evaluation in the context of physics research. By the end of this book, you should have a solid understanding of how to apply machine learning methods to solve problems in physics and gain insights from data. Being designed as a practical guide, this book will include code examples and exercises that you can follow along with. We will use Python as our programming language, along with popular libraries such as pandas, numpy, scikit-learn, matplotlib, and plotly.\nTo follow along with the examples and exercises in this book, you will need to have Python installed on your computer, along with several libraries commonly used in machine learning and data analysis. These include pandas for data manipulation, numpy for numerical computations, scikit-learn for machine learning algorithms, and matplotlib and plotly for data visualization. You can install these libraries using pip or conda. Additionally, it is recommended to use a Jupyter Notebook or JupyterLab environment to run the code examples and exercises interactively.\nTo create a virtual environment and install the required libraries, you can use the following commands in your terminal:\nwhere requirements.txt is a file that contains the list of libraries and their versions needed for this book. By setting up a virtual environment, you can ensure that the dependencies for this book do not interfere with other projects on your system.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "intro.html#technical-requirements",
+    "href": "intro.html#technical-requirements",
+    "title": "1  Introduction",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "# Create a virtual environment\npython -m venv ml-physics-env\n# Activate the virtual environment\nsource ml-physics-env/bin/activate  # On Windows, use `ml-physics-env\\Scripts\\activate`\n# Install the required libraries\npip install -r requirements.txt",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "2  Without It There Is Nothing To Learn: The Dataset",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "2.1 Dataframes\nData is the foundation of any machine learning analysis. In this chapter, we will explore the importance of data in machine learning and discuss how to prepare and preprocess data for analysis. We will cover topics such as data collection, cleaning, and feature extraction, which are crucial steps in ensuring that our machine learning models can learn effectively from the data. We will also discuss common challenges that arise when working with data in physics and how to address them. By the end of this chapter, you should have a solid understanding of how to work with datasets in the context of machine learning for physics.\nData is often collected and stored in tabular formats, such as CSV files or databases. In Python, we can use the pandas library to work with dataframes, which are powerful data structures for handling and analyzing tabular data. A dataframe allows us to easily manipulate and analyze our data, making it an essential tool for any machine learning analysis.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Without It There Is Nothing To Learn: The Dataset</span>"
+    ]
+  },
+  {
+    "objectID": "first_ml_analysis.html",
+    "href": "first_ml_analysis.html",
+    "title": "5  Your First Machine Learning Analysis in Physics",
+    "section": "",
+    "text": "5.1 Preprocessing and Feature Extraction",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Your First Machine Learning Analysis in Physics</span>"
+    ]
+  },
+  {
+    "objectID": "first_ml_analysis.html#model-training-and-evaluation",
+    "href": "first_ml_analysis.html#model-training-and-evaluation",
+    "title": "5  Your First Machine Learning Analysis in Physics",
+    "section": "5.2 Model Training and Evaluation",
+    "text": "5.2 Model Training and Evaluation",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Your First Machine Learning Analysis in Physics</span>"
+    ]
+  },
+  {
+    "objectID": "first_ml_analysis.html#cross-validation-and-hyperparameter-tuning",
+    "href": "first_ml_analysis.html#cross-validation-and-hyperparameter-tuning",
+    "title": "5  Your First Machine Learning Analysis in Physics",
+    "section": "5.3 Cross-Validation and Hyperparameter Tuning",
+    "text": "5.3 Cross-Validation and Hyperparameter Tuning",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Your First Machine Learning Analysis in Physics</span>"
+    ]
+  },
+  {
+    "objectID": "first_ml_analysis.html#interpreting-results-and-physical-insights",
+    "href": "first_ml_analysis.html#interpreting-results-and-physical-insights",
+    "title": "5  Your First Machine Learning Analysis in Physics",
+    "section": "5.4 Interpreting Results and Physical Insights",
+    "text": "5.4 Interpreting Results and Physical Insights",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Your First Machine Learning Analysis in Physics</span>"
+    ]
+  },
+  {
+    "objectID": "deep_learning_nn.html",
+    "href": "deep_learning_nn.html",
+    "title": "6  Deep Learning and Neural Networks",
+    "section": "",
+    "text": "6.1 Introduction to Deep Learning",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Deep Learning and Neural Networks</span>"
+    ]
+  },
+  {
+    "objectID": "wilks.html",
+    "href": "wilks.html",
+    "title": "7  Signal Significance and the Wilks’ Theorem",
+    "section": "",
+    "text": "8 Limit Setting",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Signal Significance and the Wilks' Theorem</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "12  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]
