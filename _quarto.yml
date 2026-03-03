@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "book"
-  author: "Norah Jones"
+  title: "Introduction to Machine Learning for Physicists"
+  author: "Maurizio Martinelli and Raffaele Gerosa"
   date: "3/2/2026"
   chapters:
     - index.qmd
