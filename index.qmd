@@ -1,5 +1,3 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This book is designed to provide an introduction to machine learning techniques and their applications in physics. We will cover a range of topics, from basic concepts of machine learning to more advanced techniques such as deep learning and neural networks. Each chapter will include practical examples and case studies to illustrate the concepts discussed. We will also discuss the importance of data preprocessing, feature extraction, and model evaluation in the context of physics research. By the end of this book, readers should have a solid understanding of how to apply machine learning methods to solve problems in physics and gain insights from data.

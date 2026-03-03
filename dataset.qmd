@@ -1,1 +1,7 @@
 # Without It There Is Nothing To Learn: The Dataset
+
+Data is the foundation of any machine learning analysis. In this chapter, we will explore the importance of data in machine learning and discuss how to prepare and preprocess data for analysis. We will cover topics such as data collection, cleaning, and feature extraction, which are crucial steps in ensuring that our machine learning models can learn effectively from the data. We will also discuss common challenges that arise when working with data in physics and how to address them. By the end of this chapter, you should have a solid understanding of how to work with datasets in the context of machine learning for physics.
+
+## Dataframes
+
+Data is often collected and stored in tabular formats, such as CSV files or databases. In Python, we can use the [`pandas`](https://pandas.pydata.org/) library to work with dataframes, which are powerful data structures for handling and analyzing tabular data. A dataframe allows us to easily manipulate and analyze our data, making it an essential tool for any machine learning analysis.
